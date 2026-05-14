@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>MOAZZAM WHATSAPP UNBANNED TOOL</title>
+  <!-- Stylish Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@700&family=Poppins:wght@700&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Poppins', sans-serif;
+      color: #00ffee;
+      background: url('https://i.postimg.cc/g2W6yXT5/file-00000000df7461f883deb4971bb46498.png') no-repeat center center fixed;
+      background-size: cover;
+      padding: 20px;
+    }
+
+    .container {
+      width: 100%;
+      max-width: 500px;
+      padding: 25px;
+      background: rgba(0, 0, 0, 0.8);
+      border-radius: 20px;
+      border: 1px solid #00ffee;
+      box-shadow: 0 0 20px rgba(0, 255, 255, 0.3), inset 0 0 10px rgba(0, 255, 255, 0.1);
+      margin: 0 auto;
+      backdrop-filter: blur(10px);
+    }
+
+    h1 {
+      font-family: 'Orbitron', sans-serif;
+      font-size: 28px;
+      text-align: center;
+      margin-bottom: 25px;
+      color: #00ffee;
+      text-shadow: 0 0 12px #00ffee;
+      letter-spacing: 2px;
+    }
+
+    label {
+      display: block;
+      margin: 20px 0 8px;
+      color: #00ffcc;
+      font-weight: bold;
+      text-shadow: 0 0 3px #00ffcc;
+    }
+
+    select, input {
+      width: 100%;
+      padding: 14px;
+      margin-bottom: 15px;
+      background: #000;
+      color: #00ffcc;
+      border: 1px solid #00ffcc;
+      font-family: 'Poppins', sans-serif;
+      font-size: 16px;
+      border-radius: 10px;
+      font-weight: bold;
+      box-shadow: inset 0 0 10px #00ffcc33;
+      transition: 0.3s;
+    }
+
+    select:focus, input:focus {
+      outline: none;
+      border-color: #00ffee;
+      box-shadow: 0 0 10px #00ffee;
+    }
+
+    button {
+      width: 100%;
+      padding: 15px;
+      margin-top: 20px;
+      background: linear-gradient(145deg, #00c3ff, #0078ff);
+      color: #fff;
+      border: none;
+      font-family: 'Orbitron', sans-serif;
+      font-size: 18px;
+      font-weight: bold;
+      border-radius: 12px;
+      cursor: pointer;
+      box-shadow: 0 8px 20px rgba(0, 132, 255, 0.4), inset 0 0 5px rgba(255, 255, 255, 0.2);
+      transition: transform 0.2s, box-shadow 0.3s ease;
+    }
+
+    button:hover {
+      background: linear-gradient(145deg, #00ff99, #00ccff);
+      color: #000;
+      transform: translateY(-2px);
+      box-shadow: 0 12px 25px rgba(0, 255, 204, 0.6);
+    }
+
+    .footer {
+      margin-top: 30px;
+      text-align: center;
+      font-size: 14px;
+      color: #aaffcc;
+      font-family: 'Orbitron', sans-serif;
+      font-weight: bold;
+    }
+
+    .whatsapp-link {
+      display: inline-block;
+      margin-top: 15px;
+      padding: 10px 20px;
+      background: linear-gradient(145deg, #25D366, #128C7E);
+      color: white;
+      text-decoration: none;
+      border-radius: 10px;
+      font-weight: bold;
+      transition: all 0.3s ease;
+      box-shadow: 0 5px 15px rgba(37, 211, 102, 0.5);
+      font-family: 'Poppins', sans-serif;
+    }
+
+    .whatsapp-link:hover {
+      background: #00ffcc;
+      color: #000;
+      box-shadow: 0 0 15px #00ffcc;
+    }
+
+    hr {
+      border: 0;
+      height: 1px;
+      background: #00ffcc;
+      margin: 20px 0;
+      opacity: 0.3;
+    }
+
+    .prompt-option {
+      font-size: 14px;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>MOAZZAM WHATSAPP UNBAN TOOL</h1>
+    
+    <label>SELECT UNBAN OPTION:</label>
+    <select id="banType">
+      <option value="normal">NORMAL UNBANNED</option>
+      <option value="permanent" selected>PERMANENT UNBANNED</option>
+    </select>
+
+    <hr>
+
+    <label>ENTER YOUR NUMBER</label>
+    <input type="text" id="phoneNumber" placeholder="e.g. +923190228599">
+
+    <hr>
+
+    <label>SELECT PROMPT:</label>
+    <select id="promptSelect">
+      <option value="0" class="prompt-option">PROMPT 1: Standard unban request</option>
+      <option value="1" class="prompt-option">PROMPT 2: Mistaken ban appeal</option>
+      <option value="2" class="prompt-option">PROMPT 3: Policy compliance promise</option>
+      <option value="3" class="prompt-option">PROMPT 4: Account review request</option>
+      <option value="4" class="prompt-option">PROMPT 5: Terms violation appeal</option>
+      <option value="5" class="prompt-option" selected>PROMPT 6: FINAL CHANCE REQUEST</option>
+    </select>
+
+    <button onclick="sendRequest()">SEND UNBAN REQUEST</button>
+
+    <div class="footer">
+      <p>💻 Developed by <strong>Moazzam</strong> | © 2025</p>
+      <a class="whatsapp-link" href="https://whatsapp.com/channel/0029VbB5rqQIiRokILC0p23M" target="_blank">JOIN OUR WHATSAPP CHANNEL</a>
+    </div>
+  </div>
+
+  <script>
+    const prompts = {
+      normal: [
+        "Hello WhatsApp Support, my number {number} was mistakenly banned. Kindly review and restore my access. Thank you.",
+        "Dear WhatsApp team, my account {number} got banned accidentally. Please help me recover it.",
+        "Hi, I believe my number {number} was wrongly banned. Requesting a quick reactivation.",
+        "I am facing an issue as my number {number} is banned. Kindly verify and unban it.",
+        "To WhatsApp Support: Please check number {number}, it appears to be banned without reason.",
+        "My number {number} got banned but I have not violated any terms. Please reinstate access."
+      ],
+      permanent: [
+        "Dear WhatsApp Support, I humbly request a second chance for my number {number}. I understand the policies and promise to follow all rules henceforth.",
+        "My number {number} is permanently banned. I deeply regret any violation. Kindly give me one more opportunity.",
+        "This is a request to reconsider the permanent ban on my number {number}. I assure compliance in the future.",
+        "Please unban my number {number}. I take full responsibility and seek one final chance to use WhatsApp responsibly.",
+        "I acknowledge mistakes on number {number}. Requesting a final opportunity and committing to policy adherence.",
+        "Dear WhatsApp Support,\n\nMy number has been permanently banned, and I strongly believe this may be a mistake or an automated action. I respectfully request a detailed review of my account and activity.\n\nI always strive to follow WhatsApp's Terms of Service and community guidelines. If any issues were caused unintentionally, I assure you it was not with malicious intent, and I am ready to correct any mistakes.\n\nPlease consider reinstating my number. I truly rely on WhatsApp for personal and professional communication. Your assistance would mean a lot.\n\nPhone Number: {number}.\n\nThank you for your time and understanding.\n\nBest regards."
+      ]
+    };
+
+    function sendRequest() {
+      const number = document.getElementById('phoneNumber').value;
+      const type = document.getElementById('banType').value;
+      const promptIndex = document.getElementById('promptSelect').value;
+      const selectedPrompt = prompts[type][promptIndex].replace('{number}', number);
+      
+      const subject = 'Unban Request for ' + number;
+      const mailtoLink = 'mailto:support@support.whatsapp.com?subject=' + 
+                       encodeURIComponent(subject) + 
+                       '&body=' + 
+                       encodeURIComponent(selectedPrompt);
+      
+      window.location.href = mailtoLink;
+    }
+  </script>
+</body>
+</html>
